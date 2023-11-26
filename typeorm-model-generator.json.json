@@ -1,0 +1,23 @@
+{
+        "database": "4n0zk_bdsawkis",
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "",
+        "ssl": false,
+        "outputDir": "./src/entities",
+        "generateConstructor": true,
+        "generateGettersAndSetters": true,
+        "propertyVisibility": "public",
+        "lazy": false,
+        "skipSchema": false,
+        "namingStrategy": "default",
+        "entityNamingStrategy": "pascal-case",
+        "relationIds": false,
+        "customNamingStrategyPath": null,
+        "noConfigs": false,
+        "configName": "ormconfig.json",
+        "strictMode": false,
+        "tabSize": 2
+      }
+      
