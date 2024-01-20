@@ -12,7 +12,7 @@ export class TransactionService {
     @InjectRepository(Compte) private repoCompte: Repository<Compte>,
   ) {}
   async getS() {
-    console.log('-----------------------get transaction-----------------');
+    console.log('----------------------- get transaction -----------------');
     return await this.repo.find({
       relations: {
         compte: true,
